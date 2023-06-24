@@ -124,6 +124,26 @@ p {
 
 
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+
+
 
 @media (max-width: 768px) {
     h1 {
