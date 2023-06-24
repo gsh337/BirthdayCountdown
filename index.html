@@ -8,140 +8,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:ital@0;1&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="svg/Star.svg">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 98vh;
-            background-color: #152F1F;
-            position: relative;
-        }
-
-        .star {
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            transition: transform 1s ease;
-        }
-
-        .star:hover {
-            transform: rotate(360deg);
-        }
-
-        .top-left {
-            top: 48px;
-            left: 48px;
-        }
-
-        .top-right {
-            top: 48px;
-            right: 48px;
-        }
-
-        .bottom-left {
-            bottom: 48px;
-            left: 48px;
-        }
-
-        .bottom-right {
-            bottom: 48px;
-            right: 48px;
-        }
-
-        .container {
-            display: flex;
-            width: 100%;
-            max-width: 1072px;
-            min-width: auto;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 8px;
-            padding: 0 48px;
-        }
-
-        h1 {
-            color: #FBC;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            font-size: 72px;
-            font-family: Abril Fatface;
-            margin: 0px;
-
-        }
-
-        p {
-            color: #FBC;
-            font-size: 24px;
-            font-family: Libre Baskerville;
-            line-height: 110%;
-        }
-
-        .countdown {
-            color: #FBC;
-            font-size: 24px;
-            font-family: Libre Baskerville;
-            line-height: 110%;
-        }
-
-        .message {
-            color: #FBC;
-            font-size: 14px;
-            font-family: Libre Baskerville;
-            font-style: italic;
-            line-height: 130%;
-        }
-
-        /* Media Queries */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 48px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 36px;
-            }
-
-            p,
-            .countdown,
-            .message {
-                font-size: 16px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Countdown to my birthday</h1>
-        <p class="countdown">
+        <h1 class="fade-in">Countdown to my birthday</h1>
+        <p class="countdown fade-in">
             <span>Time remaining until my birthday: </span><span id="countdown"></span>
         </p>
-        <p class="message">(c) 2023 George Petkevich</p>
+        <p class="attribution fade-in">(c) 2023 George Petkevich</p>
     </div>
 
-    <!-- Use the provided SVG code as inline SVG content -->
-    <svg class="star top-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+    <svg class="star top-left fade-in" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
         <path
             d="M24 0H16V10.3435L8.68616 3.02966L3.0293 8.68652L10.3428 16H0V24H10.3425L3.02869 31.3138L8.68555 36.9707L16 29.6562V40H24V29.6572L31.3136 36.9708L36.9704 31.314L29.6565 24H40V16H29.6562L36.9698 8.6864L31.313 3.0296L24 10.3425V0Z"
             fill="#FFBBCC" />
     </svg>
 
-    <svg class="star top-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+    <svg class="star top-right fade-in" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
         <path
             d="M24 0H16V10.3435L8.68616 3.02966L3.0293 8.68652L10.3428 16H0V24H10.3425L3.02869 31.3138L8.68555 36.9707L16 29.6562V40H24V29.6572L31.3136 36.9708L36.9704 31.314L29.6565 24H40V16H29.6562L36.9698 8.6864L31.313 3.0296L24 10.3425V0Z"
             fill="#FFBBCC" />
     </svg>
 
-    <svg class="star bottom-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+    <svg class="star bottom-left fade-in" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
         <path
             d="M24 0H16V10.3435L8.68616 3.02966L3.0293 8.68652L10.3428 16H0V24H10.3425L3.02869 31.3138L8.68555 36.9707L16 29.6562V40H24V29.6572L31.3136 36.9708L36.9704 31.314L29.6565 24H40V16H29.6562L36.9698 8.6864L31.313 3.0296L24 10.3425V0Z"
             fill="#FFBBCC" />
     </svg>
 
-    <svg class="star bottom-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+    <svg class="star bottom-right fade-in" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
         <path
             d="M24 0H16V10.3435L8.68616 3.02966L3.0293 8.68652L10.3428 16H0V24H10.3425L3.02869 31.3138L8.68555 36.9707L16 29.6562V40H24V29.6572L31.3136 36.9708L36.9704 31.314L29.6565 24H40V16H29.6562L36.9698 8.6864L31.313 3.0296L24 10.3425V0Z"
             fill="#FFBBCC" />
