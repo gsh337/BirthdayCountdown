@@ -25,7 +25,7 @@ Feel free to customize the appearance or add additional functionality to suit yo
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## Contributing
 
