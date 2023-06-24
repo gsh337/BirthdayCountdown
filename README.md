@@ -33,6 +33,6 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements, 
 
 ## Author
 
-BirthdayCountdown is created and maintained by [Your Name](https://your-website.com).
+BirthdayCountdown is created and maintained by [gasha337](https://linktr.ee/gasha337).
 
 If you have any questions or feedback, please feel free to contact me.
