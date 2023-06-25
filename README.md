@@ -2,7 +2,7 @@
 
 ![BirthdayCountdown](preview.png)
 
-**BirthdayCountdown** is a simple and intuitive web application that allows you to count down the days, hours, minutes, and seconds until your next birthday. It provides a real-time countdown timer, ensuring that you never miss out on the excitement and anticipation leading up to your special day.
+> ✍️ **BirthdayCountdown** is a simple and intuitive web application that allows you to count down the days, hours, minutes, and seconds until your next birthday. It provides a real-time countdown timer, ensuring that you never miss out on the excitement and anticipation leading up to your special day.
 
 ## Demo
 
