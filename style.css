@@ -45,10 +45,21 @@ h1 {
     margin: 0;
 }
 
-p.countdown {
+.countdown {
     color: var(--primary-color);
     font-size: 24px;
     font-family: 'Libre Baskerville', serif;
+    line-height: 110%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-l {
+    color: var(--primary-color);
+    font-size: 96px;
+    font-family: 'Abril Fatface', sans-serif;
     line-height: 110%;
     margin: 0;
 }
@@ -86,7 +97,7 @@ a:hover {
 .social-icon {
     width: 24px;
     height: 24px;
-    color: var(--primary-color);
+    fill: var(--primary-color);
     transition: transform 0.3s ease;
 }
 
@@ -114,7 +125,7 @@ a:hover {
 }
 
 .star:hover {
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.2);
 }
 
 .star.top-left {
@@ -137,9 +148,53 @@ a:hover {
     right: 128px;
 }
 
+.minimize-maximize {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    fill: var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.minimize-maximize:hover {
+    transform: scale(1.2);
+}
+
+@media (max-height: 656px) {
+    .star {
+        display: none;
+    }
+}
+
+@media (max-width:1360px) {
+    .star.top-left {
+        top: 64px;
+        left: 64px;
+    }
+
+    .star.top-right {
+        top: 64px;
+        right: 64px;
+    }
+
+    .star.bottom-left {
+        bottom: 64px;
+        left: 64px;
+    }
+
+    .star.bottom-right {
+        bottom: 64px;
+        right: 64px;
+    }
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 48px;
+    }
+
+    .countdown-l {
+        font-size: 72px;
     }
 }
 
@@ -151,4 +206,19 @@ a:hover {
     p.countdown {
         font-size: 16px;
     }
+
+    .countdown {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .minimize-maximize {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .countdown-l {
+        font-size: 64px;
+    }
+
 }
