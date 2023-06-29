@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Birthday countdown</title>
+        <link rel="icon" type="image/svg+xml" href="resources/svg/star.svg">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Emoji&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="main.style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Countdown to George’s birthday</h2>
+            <p class="countdown-container">
+                <span class="countdown-text">Time remaining until: </span>
+                <span id="countdown" class="countdown-count">
+                    <span id="days"></span>&nbsp;<span id="days-text"></span>,
+                    <span id="hours"></span>&nbsp;<span id="hours-text"></span>,
+                    <span id="minutes"></span>&nbsp;<span id="minutes-text"></span>,
+                    <span id="seconds"></span>&nbsp;<span id="seconds-text"></span>
+                </span>
+            </p>
+
+            <span class="socials-container">
+                <span class="socials-text">Join me in celebrating my birthday!</span>
+
+                <span class="social-icons-container">
+                    <a href="https://www.instagram.com/prosto_gasha" target="_blank">
+                        <img class="social-icon" width="24" height="24" src="resources/svg/icon/instagram.svg"
+                            alt="Instagram icon">
+                    </a>
+                    <a href="https://discord.com/users/gasha337" target="_blank">
+                        <img class="social-icon" width="24" height="24" src="resources/svg/icon/discord.svg"
+                            alt="Discord icon">
+                    </a>
+                    <a href="https://t.me/gasha337" target="_blank">
+                        <img class="social-icon" width="24" height="24" src="resources/svg/icon/telegram.svg"
+                            alt="Telegram icon">
+                    </a>
+                    <a href="https://inktr.ee/gasha337" target="_blank">
+                        <img class="social-icon" width="24" height="24" src="resources/svg/icon/lintree.svg"
+                            alt="Linktree icon">
+                    </a>
+                </span>
+
+            </span>
+
+        </div>
+
+        <img class="star top-left" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+        <img class="star top-right" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+        <img class="star bottom-left" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+        <img class="star bottom-right" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+        <span class="control-icons-container">
+            <a class="control-icon" href="clock.html" title="Go to the page with the big clock">
+                <img src="resources/svg/icon/clock.svg" alt="Clock icon">
+            </a>
+
+            <a class="control-icon" href="https://github.com/prostogasha/BirthdayCountdown" title="Go to GitHub repository">
+                <img src="resources/svg/icon/github.svg" alt="GitHub icon">
+            </a>
+        </span>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.10.1/tsparticles.confetti.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</html>

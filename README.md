@@ -1,23 +1,39 @@
 # BirthdayCountdown
 
-[![BirthdayCountdown](preview.png)](https://prostogasha.github.io/BirthdayCountdown)
+[![BirthdayCountdown](resources/images/preview.png)](https://prostogasha.github.io/BirthdayCountdown)
 
-> ✍️ **BirthdayCountdown** is a simple and intuitive web application that allows you to count down the days, hours, minutes, and seconds until your next birthday. It provides a real-time countdown timer, ensuring that you never miss out on the excitement and anticipation leading up to your special day.
+> 🌳 BirthdayCountdown is a simple and intuitive web application that allows you to count down the days, hours, minutes and seconds until your next birthday. It provides a real-time countdown timer so you never miss the excitement and anticipation of your special day. Join the birthday party and customize the application to suit your preferences and needs.
+
+## Features
+
+- Displays a countdown timer to the next birthday
+- Updates the countdown in real-time
+- Shows the remaining days, hours, minutes, and seconds
+- Changes singular/plural words based on the countdown values
+- Provides social media icons to join the birthday celebration
+- Includes a large clock mode with a larger countdown timer
+- Supports toggling fullscreen mode
+- Includes confetti animation when the countdown reaches the target date
 
 ## Demo
 
 You can experience a live demo of the BirthdayCountdown application by visiting the [demo page](https://prostogasha.github.io/BirthdayCountdown).
 
-## Usage
+## Getting Started
 
-To start using BirthdayCountdown, follow these easy steps:
+To get a local copy of the project up and running on your machine, follow these steps:
 
-1. Clone or download this repository to your local machine.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/prostogasha/BirthdayCountdown.git
+```
+
 2. Open the `index.html` file in your preferred web browser.
-3. Modify the `birthday` variable in the JavaScript code to set your birthday. Ensure the date format follows `Month Day, Year Hour:Minute:Second`.
-4. The countdown timer will automatically begin, providing you with a clear visualization of the remaining time until your birthday.
 
-Feel free to customize the application's appearance or extend its functionality according to your preferences and requirements.
+3. Modify the `birthday` variable in the `script.js` file to set your birthday. Ensure the date format follows `Month Day, Year Hour:Minute:Second`.
+
+4. The countdown timer will automatically begin, providing you with a clear visualization of the remaining time until your birthday.
 
 ## Technologies Used
 
@@ -27,20 +43,20 @@ The BirthdayCountdown application is built using the following technologies:
 - CSS
 - JavaScript
 
-## License
+## Dependencies
 
-This project is licensed under the [MIT License](LICENSE.md).
+The project uses the following dependency:
+
+- [TypeScript Particles](https://github.com/matteobruni/tsparticles)
 
 ## Contributing
 
 Contributions are highly appreciated! If you have any ideas, suggestions, or improvements, please feel free to contribute by opening an issue or submitting a pull request on the [GitHub repository](https://github.com/prostogasha/BirthdayCountdown).
 
-## Author
+## License
 
-BirthdayCountdown is created and maintained by [gasha337](https://linktr.ee/gasha337).
-
-If you have any questions or feedback, please don't hesitate to contact me. Your input is invaluable in making this project even better.
+This project is licensed under the [MIT License](LICENSE.md).
 
 ---
 
-**Note**: This README was last updated in `26.06.2023`. Please refer to the [GitHub repository](https://github.com/prostogasha/BirthdayCountdown) for the latest information and updates.
+Enjoy counting down to your special day! 🎉
