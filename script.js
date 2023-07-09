@@ -18,7 +18,7 @@ function syncTimeWithServer() {
 }
 
 // Target date (your birthday)
-const targetDate = new Date('July 9, 2023 01:48:00');
+const targetDate = new Date('July 9, 2024 00:00:00');
 
 // Sync the time with the server
 syncTimeWithServer();
