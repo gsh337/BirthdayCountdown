@@ -1,6 +1,6 @@
 # BirthdayCountdown
 
-[![BirthdayCountdown](resources/images/preview.png)](https://prostogasha.github.io/BirthdayCountdown)
+[![BirthdayCountdown](resources/images/preview.png)](https://gsh337.github.io/BirthdayCountdown)
 
 > 🌳 BirthdayCountdown is a simple and intuitive web application that allows you to count down the days, hours, minutes and seconds until your next birthday. It provides a real-time countdown timer so you never miss the excitement and anticipation of your special day. Join the birthday party and customize the application to suit your preferences and needs.
 
@@ -17,7 +17,7 @@
 
 ## Demo
 
-You can experience a live demo of the BirthdayCountdown application by visiting the [demo page](https://prostogasha.github.io/BirthdayCountdown).
+You can experience a live demo of the BirthdayCountdown application by visiting the [demo page](https://gsh337.github.io/BirthdayCountdown).
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ The project uses the following dependency:
 
 ## Contributing
 
-Contributions are highly appreciated! If you have any ideas, suggestions, or improvements, please feel free to contribute by opening an issue or submitting a pull request on the [GitHub repository](https://github.com/prostogasha/BirthdayCountdown).
+Contributions are highly appreciated! If you have any ideas, suggestions, or improvements, please feel free to contribute by opening an issue or submitting a pull request on the [GitHub repository](https://github.com/gsh337/BirthdayCountdown).
 
 ## License
 
