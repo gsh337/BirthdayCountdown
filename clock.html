@@ -2,70 +2,85 @@
 
 <html lang="en">
 
-    <head>
-        <title>Birthday countdown</title>
-        <link rel="icon" type="image/svg+xml" href="resources/svg/star.svg">
+<head>
+    <title>Birthday countdown</title>
+    <link rel="icon" type="image/svg+xml" href="resources/svg/star.svg">
 
-        <meta charset="utf-8" name="title">
+    <meta charset="utf-8" name="title">
 
-        <!-- Open Graph tags -->
-        <meta property="og:title" content="BirthdayCountdown">
-        <meta property="og:description" content="BirthdayCountdown is a simple countdown website to my (George's) birthday.">
-        <meta property="og:image" content="https://gsh337.github.io/BirthdayCountdown/resources/images/site_preview_img.png">
-        <meta property="og:url" content="https://gsh337.github.io/BirthdayCountdown">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="BirthdayCountdown">
+    <meta property="og:description"
+        content="BirthdayCountdown is a simple countdown website to my (George's) birthday.">
+    <meta property="og:image"
+        content="https://gsh337.github.io/BirthdayCountdown/resources/images/site_preview_img.png">
+    <meta property="og:url" content="https://gsh337.github.io/BirthdayCountdown">
 
-        <!-- Twitter Card tags -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="BirthdayCountdown">
-        <meta name="twitter:description" content="BirthdayCountdown is a simple countdown website to my (George's) birthday.">
-        <meta name="twitter:image" content="https://gsh337.github.io/BirthdayCountdown/resources/images/site_preview_img.png">
-        <meta name="twitter:url" content="https://gsh337.github.io/BirthdayCountdown">
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BirthdayCountdown">
+    <meta name="twitter:description"
+        content="BirthdayCountdown is a simple countdown website to my (George's) birthday.">
+    <meta name="twitter:image"
+        content="https://gsh337.github.io/BirthdayCountdown/resources/images/site_preview_img.png">
+    <meta name="twitter:url" content="https://gsh337.github.io/BirthdayCountdown">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Emoji&display=swap"
-            rel="stylesheet">
 
-        <link rel="stylesheet" href="main.style.css">
-    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DH8MGWRWX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    <body>
-        <div class="container">
-            <h1>
-                <span id="countdown" class="countdown-count">
-                    <span id="days">0</span>&nbsp;<span id="days-text"></span>, 
-                    <span id="hours">0</span>&nbsp;<span id="hours-text"></span>, 
-                    <br class="adaptive-br">
-                    <span id="minutes">0</span>&nbsp;<span id="minutes-text"></span>, 
-                    <span id="seconds">0</span>&nbsp;<span id="seconds-text"></span>
-                </span>
-            </h1>
+        gtag('config', 'G-0DH8MGWRWX');
+    </script>
 
-        </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Emoji&display=swap"
+        rel="stylesheet">
 
-        <span class="control-icons-container">
-            <a class="control-icon" href="index.html" title="Go to the main page">
-                <img src="resources/svg/icon/back 2.svg" alt="Back icon">
-            </a>
+    <link rel="stylesheet" href="main.style.css">
+</head>
 
-            <a class="control-icon" id="fullscreenButton" title="Toggle Fullscreen">
-                <img id="maximizeIcon" src="resources/svg/icon/maximize.svg" alt="Maximize icon">
-            </a>
+<body>
+    <div class="container">
+        <h1>
+            <span id="countdown" class="countdown-count">
+                <span id="days">0</span>&nbsp;<span id="days-text"></span>,
+                <span id="hours">0</span>&nbsp;<span id="hours-text"></span>,
+                <br class="adaptive-br">
+                <span id="minutes">0</span>&nbsp;<span id="minutes-text"></span>,
+                <span id="seconds">0</span>&nbsp;<span id="seconds-text"></span>
+            </span>
+        </h1>
 
-            <a class="control-icon" href="https://github.com/gsh337/BirthdayCountdown" title="Go to GitHub repository">
-                <img src="resources/svg/icon/github.svg" alt="GitHub icon">
-            </a>
-        </span>
+    </div>
 
-        <img class="star top-left" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
-        <img class="star top-right" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
-        <img class="star bottom-left" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
-        <img class="star bottom-right" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+    <span class="control-icons-container">
+        <a class="control-icon" href="index.html" title="Go to the main page">
+            <img src="resources/svg/icon/back 2.svg" alt="Back icon">
+        </a>
 
-    </body>
+        <a class="control-icon" id="fullscreenButton" title="Toggle Fullscreen">
+            <img id="maximizeIcon" src="resources/svg/icon/maximize.svg" alt="Maximize icon">
+        </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.10.1/tsparticles.confetti.bundle.min.js"></script>
-    <script src="script.js"></script>
+        <a class="control-icon" href="https://github.com/gsh337/BirthdayCountdown" title="Go to GitHub repository">
+            <img src="resources/svg/icon/github.svg" alt="GitHub icon">
+        </a>
+    </span>
+
+    <img class="star top-left" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+    <img class="star top-right" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+    <img class="star bottom-left" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+    <img class="star bottom-right" width="40" height="40" src="resources\svg\star.svg" viewBox="0 0 40 40">
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.10.1/tsparticles.confetti.bundle.min.js"></script>
+<script src="script.js"></script>
 
 </html>
